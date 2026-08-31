@@ -26,6 +26,6 @@ void deberiaRestarCorrectamenteDosNumeros() {
 
     assertEquals(6, resultado);
 }
-
+ 
 
 }
