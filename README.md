@@ -21,34 +21,11 @@ Se utiliza Git para el control de versiones, Maven para la gestión de dependenc
 
 ## Estructura del proyecto
 
-proyecto-pruebas-ci/
-│
-├── .github/
-│   └── workflows/
-│       └── ci.yml
-│
-├── src/
-│   ├── main/
-│   │   └── java/
-│   │       └── cl/
-│   │           └── empresa/
-│   │               └── Calculadora.java
-│   │
-│   └── test/
-│       └── java/
-│           └── cl/
-│               └── empresa/
-│                   └── CalculadoraTest.java
-│
-├── .gitignore
-├── pom.xml
-└── README.md
-
-* src/main/java`: contiene el código principal de la aplicación.
-* src/test/java`: contiene las pruebas unitarias.
-* pom.xml`: configura Maven y las dependencias del proyecto.
-* .gitignore`: define los archivos que no serán incluidos en Git.
-* .github/workflows/ci.yml`: contiene la configuración del pipeline de integración continua.
+* src/main/java: contiene el código principal de la aplicación.
+* src/test/java: contiene las pruebas unitarias.
+* pom.xml: configura Maven y las dependencias del proyecto.
+* .gitignore: define los archivos que no serán incluidos en Git.
+* .github/workflows/ci.yml: contiene la configuración del pipeline de integración continua.
 
 ---
 
